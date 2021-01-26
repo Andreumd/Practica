@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+@font-face {
+    font-family: 'Normal';
+    src: url('louis_george_caf/Louis\ George\ Cafe.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titol';
+    src: url('birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bold';
+    src: url('/louis_george_caf/Louis\ George\ Cafe\ Bold.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+header{
+    background-color: whitesmoke;
+    
+}
+.barrasuperior{
+    background-color: black;
+    display: flex;
+    
+}
+.barrasuperior h2{
+    color: white;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1.5%;
+    font-family: 'normal';
+}
+.barrasuperior img{
+    height: 28px;
+    margin-top: 0.5%;
+    right: 0;
+    margin-right: 1%;
+    position: absolute;
+    
+}
+.llistaul li{
+    display: inline;
+    padding-left: 1%;
+    margin-left: 1%;
+    font-family: 'bold';
+    font-size: 20px;
+}
+.menu{
+    
+    padding-bottom: 1%;
+}
+
+.titol{
+    font-size: 300%;
+    text-align:center;
+    font-family: 'titol';
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+.presentacio{
+    display: flex;
+    margin-left: 15%;
+}
+
+.text1{
+    width: 31%;
+    margin-left: 3%;
+    margin-top: 4%;
+    
+    padding-left: 1%;
+    margin-bottom: 4%;   
+}
+
+.text2{
+    width: 31%;
+    margin-left: 10%;
+    margin-top: 4%;
+    
+    padding-left: 1%;
+    margin-bottom: 4%;   
+}
+.lletra1{
+    font-family: Normal;
+    display: none;
+}
+.lletra2{
+    font-family: Normal;
+    display: none;
+}
+.lletra1 p{
+    
+    border-left:1px solid black;
+    padding-left: 3%;
+}
+.lletra2 p{
+    
+    border-left:1px solid black;
+    padding-left: 3%;
+}
+
+.capo1{
+    display: flex;
+}
+.capo2{
+    display: flex;
+}
+.capo1 img{
+    margin-left: 50%;
+    height: 40px;
+}
+.capo1 h2{
+    font-size: 40px;
+    font-family: bold;
+}
+.capo2 h2{
+    font-size: 40px;
+    font-family: bold;
+}
+
+footer { 
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+    background-color:whitesmoke;
+    display: flex;
+    flex-shrink: 0;
+    
+}
+.peu li{
+    color: black;
+    font-family: bold;
+    font-size: 90%;
+    display: inline;
+    margin-left: 8%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+}
+.peu{
+    margin-top: 4%;
+}
+
+.Rpp{
+    padding-top: 7%;
+
+}
+.Rpp img{
+    height: 35px;
+    
+}
+.Rpp li{
+    list-style: none;
+    display: inline;
+    
+}
+.b1{
+    width: 50%;
+    
+}
+.b2{
+    right: 0;
+    position: absolute;
+}
+
+.mes11{
+    background-image: url(/img/downn.png);
+    height: 60px;
+    width: 60px;
+    
+    margin-left: 10%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 70px;
+    border-radius: 50px;
+    
+}

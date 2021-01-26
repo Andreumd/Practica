@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+@font-face {
+    font-family: 'Normal';
+    src: url('louis_george_caf/Louis\ George\ Cafe.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'titol';
+    src: url('birds_of_paradise/Birds\ of\ Paradise\ ©\ PERSONAL\ USE\ ONLY.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bold';
+    src: url('/louis_george_caf/Louis\ George\ Cafe\ Bold.ttf');
+    font-weight: 100;
+    font-style: normal;
+}
+
+header{
+    background-color: whitesmoke;
+    
+}
+.barrasuperior{
+    background-color: black;
+    display: flex;
+    
+}
+.barrasuperior h2{
+    color: white;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 1.5%;
+    font-family: 'normal';
+}
+.barrasuperior img{
+    height: 28px;
+    margin-top: 0.5%;
+    right: 0;
+    margin-right: 1%;
+    position: absolute;
+    
+}
+.llistaul li{
+    display: inline;
+    padding-left: 1%;
+    margin-left: 1%;
+    font-family: 'bold';
+    font-size: 20px;
+}
+.menu{
+    
+    padding-bottom: 1%;
+}
+
+.titol{
+    font-size: 300%;
+    text-align:center;
+    font-family: 'titol';
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+.presentacio11{
+    align-items: center;
+    background: linear-gradient(#e66465, #9198e5);
+}
+.presentacio11 h2{
+    font-size: 50px;
+    font-family: bold;
+    margin-left: 10%;
+    padding-top: 3%;
+}
+.presentacio11 img{
+    height: 400px;
+    width: 500px;
+    
+}
+
+.text1{
+    width: 80%;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    border-left:1px solid black;
+    padding-left: 1%;
+    
+}
+
+.text1 p{
+    font-family: Normal;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color:whitesmoke;
+    display: flex;
+}
+form{
+    display: flex;
+    margin-left: 30%;
+    padding-bottom: 5%;
+}
+.peu li{
+    color: black;
+    font-family: bold;
+    font-size: 90%;
+    display: inline;
+    margin-left: 2%;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    
+}
+.peu{
+    margin-top: 0.8%;
+}
+
+.Rpp{
+    padding-top: 7%;
+
+}
+.Rpp img{
+    height: 25px;
+    
+}
+.Rpp li{
+    list-style: none;
+    display: inline;
+    
+}
+.b1{
+    width: 50%;
+    
+}
+.b2{
+    right: 0;
+    position: absolute;
+}
+
+.adelantebutton{
+    background-image: url(/img/keyboard-right-arrow-1780091-1518652.png);
+    height: 60px;
+    width: 60px;
+    margin-top: 17%;
+    margin-left: 2%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100px
+    
+}
+.atrasbutton{
+    background-image: url(/img/keyboard-right-arrow-1780091-1518652\ -\ copia.png);
+    height: 60px;
+    width: 60px;
+    margin-top: 17%;
+    margin-right: 2%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 100px
+    
+}
